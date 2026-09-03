@@ -1,10 +1,10 @@
 # INTC 3m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-399_105_rows-blue)](https://getdata.finance/datasets/intc) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/intc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-212_157_rows-blue)](https://getdata.finance/datasets/intc) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/intc)
 
 ### -> [**Download the full INTC dataset on getdata.finance**](https://getdata.finance/datasets/intc)
 
-**INTC 3m OHLCV us stocks historical data** — ultra high-quality 3m OHLCV for **INTC**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**INTC 3m OHLCV stocks historical data** — ultra high-quality 3m OHLCV for **Intel**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 3m OHLCV** for **INTC** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/intc) · **399,105** `1m` rows in the full archive
+- **Ultra high-quality 3m OHLCV** for **Intel** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/intc) · **212,157** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `INTC_3m.csv` (16,250 rows, `2026-02-02` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **399,105** `1m` rows (~27.70 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2011-05-09` -> `2026-07-31`.
+> **Sample on GitHub** · `INTC_3m.csv` (18,480 rows, `2026-02-06` -> `2026-09-01`, 1.87 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **212,157** `3m` rows (full `1m`: 635,826), **11 timeframes**, `2020-02-24` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/intc))** |
 |---|--:|---|
-| Instrument | INTC · US stocks | INTC · US stocks |
-| Timeframes | `3m` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 16,250 | **399,105** |
-| Size | 1.63 MB | ~27.70 MB |
-| Period | `2026-02-02` -> `2026-07-31` | `2011-05-09` -> `2026-07-31` |
+| Instrument | Intel · US stocks | Intel · US stocks |
+| Timeframes | `3m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 3m rows | 18,480 | **212,157** |
+| Size | 1.87 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
+| Period | `2026-02-06` -> `2026-09-01` | `2020-02-24` -> `2026-09-01` |
 | File | `INTC_3m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
 | Coverage report | — | [INTC coverage](https://getdata.finance/coverage/intc) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`3m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/intc)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`3m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/intc)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `3m` sample · [getdata.finance](https://getdata.finance/datasets/intc) = all **9** timeframes above for the same instrument.
+GitHub = `3m` sample · [getdata.finance](https://getdata.finance/datasets/intc) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`INTC_3m.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-02T14:30:00+00:00 | 44.93 | 45.53 | 43.97 | 45.27 | 1075 |
-| 2026-02-02T14:33:00+00:00 | 45.27 | 45.44 | 44.95 | 45.24 | 772 |
-| 2026-02-02T14:36:00+00:00 | 45.24 | 45.82 | 45.24 | 45.71 | 750 |
-| 2026-02-02T14:39:00+00:00 | 45.71 | 46.12 | 45.66 | 45.92 | 750 |
-| 2026-02-02T14:42:00+00:00 | 45.92 | 46.13 | 45.8 | 45.87 | 668 |
+| 2026-02-06T20:00:00+00:00 | 48.97 | 49 | 48.87 | 48.94 | 203 |
+| 2026-02-06T20:03:00+00:00 | 48.94 | 49.05 | 48.94 | 49.02 | 210 |
+| 2026-02-06T20:06:00+00:00 | 49.02 | 49.06 | 48.96 | 48.98 | 84 |
+| 2026-02-06T20:09:00+00:00 | 48.98 | 49.04 | 48.91 | 48.95 | 124 |
+| 2026-02-06T20:12:00+00:00 | 48.95 | 49.09 | 48.93 | 49.09 | 127 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T19:45:00+00:00 | 89.86 | 90.05 | 89.72 | 89.77 | 1078 |
-| 2026-07-31T19:48:00+00:00 | 89.77 | 89.97 | 89.33 | 89.42 | 1010 |
-| 2026-07-31T19:51:00+00:00 | 89.42 | 89.55 | 89.32 | 89.46 | 858 |
-| 2026-07-31T19:54:00+00:00 | 89.46 | 89.51 | 88.63 | 88.68 | 1421 |
-| 2026-07-31T19:57:00+00:00 | 88.68 | 88.79 | 88.13 | 88.27 | 1857 |
+| 2026-09-01T19:45:00+00:00 | 86.61 | 86.73 | 86.46 | 86.72 | 612 |
+| 2026-09-01T19:48:00+00:00 | 86.72 | 86.97 | 86.6 | 86.74 | 755 |
+| 2026-09-01T19:51:00+00:00 | 86.74 | 86.79 | 86.49 | 86.57 | 642 |
+| 2026-09-01T19:54:00+00:00 | 86.57 | 86.92 | 86.55 | 86.8 | 983 |
+| 2026-09-01T19:57:00+00:00 | 86.8 | 86.85 | 86.72 | 86.84 | 801 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`INTC_3m.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('INTC_3m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('INTC_3m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('INTC_3m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('INTC_3m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('INTC_3m.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('INTC_3m.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='3min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **INTC** archive on **[getdata.finance](https://getdata.finance/datasets/intc)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **399,105** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **INTC** archive on **[getdata.finance](https://getdata.finance/datasets/intc)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **212,157** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full INTC dataset on getdata.finance](https://getdata.finance/datasets/intc)**
 
 ---
-*GetData · INTC 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/intc) · 2026-08-04 UTC*
+*GetData · INTC 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/intc)*
